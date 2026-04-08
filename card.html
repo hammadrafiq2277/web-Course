@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing:border-box;
+    }
+    .card{
+        
+        background-color: rgb(53 63 64);
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: space-evenly;
+        margin:15px;
+        height:430px;
+    }
+    .box{
+        border-radius:12px;
+        background-color: white;
+        height:400px;
+        width:23%;
+        margin:12px;
+       
+    }
+    .box-img{
+        background-image: url("/office.avif");
+        height:200px;
+        background-size:100% 100%;
+        margin-top:1rem;
+        margin-bottom:1rem;
+        border-radius: 7px;
+    }
+    .box-content{
+        margin-left:1rem;
+        margin-right:1rem;
+        
+    }
+    .box-content p{
+        font-weight:bold;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .btn{
+        display:flex;
+        justify-content: center;
+        align-items:center;
+       padding:5px;
+    }
+    .box-btn{
+        background-color: rgba(50, 6, 6, 0.697);
+        color:white;
+        padding:3px;
+        border-radius: 6px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .box-btn:hover{
+        color:white;
+         background-color:  rgb(53 63 64);
+    }
+
+</style>
+<body>
+
+    <div class="card">
+        <div class="box">
+            <div class="box-content">
+                <h1 style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Office Envirnment</h1>
+                <div class="box-img"></div>
+                <p>A office is a place where people works together in an apropriate manner.  </p>
+                <div class="btn">
+                    <button class="box-btn">Read more</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,354 @@
+  *{
+        padding: 0;
+        margin: 0;
+        box-sizing:border-box;
+        
+    }
+    body{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        
+
+    }
+      .header-nav{
+        display:flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 50px;
+        width:100vw;
+        /* background-color: azure; */
+    }
+    .header-nav li{
+        list-style: none;
+        font-weight:bold;
+        padding: 15px;
+        color:white;
+    }
+    .icon{
+        margin-right: auto;
+        font-weight: bold;
+        font-size: 24px;
+    }
+    .header-nav li:hover{
+        text-decoration: underline;
+        
+    }
+    
+    .header-nav button{
+        margin-right:auto;
+        height:30px;
+    }
+    .nav-btn{
+        padding:1px 24px;
+        border-radius:10px;
+        text-align:center;
+        background-color: orange;
+        font-size:16px;
+        border:none;
+        
+    }
+   .nav-btn:hover{
+    background-color:none;
+    color:white;
+   }
+    
+   header{
+    height:100vh;
+    width:100vw;
+    /* background-color: beige; */
+    background-image: url("/alternative.jpg");
+    overflow: hidden;
+    background-size:100% 100%;
+    background-position: center center;
+   }
+  .header-material{
+    display:flex;
+    height:350px;
+    width:40%;
+    /* border:2px solid white; */
+    margin:10px;
+    padding: 0px;
+    overflow-y: auto;
+    background-size: 100% 100%;
+    
+
+  }
+  .header-material h2{
+    color:white;
+    text-align:justify;
+    padding:12px;
+  }
+  .header-btn{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top:12px;
+   
+  }
+  .inner-btn{
+    padding:1px 34px;
+    height:34px;
+    border:none;
+    border-radius:10px;
+    background-color:orange;
+    color:black;
+    font-size:15px;
+  }
+  .inner-btn:hover{
+     color:white;
+
+  }
+  .main-head{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    background-color: rgb(23, 22, 22);
+    height:105px;
+    width:100vw;
+  }
+  .main-head span{
+    color:orange;
+    text-align: center;
+    /* padding:10px; */
+    font-weight: bolder;
+    font-size:17px;
+
+  }
+  .main-head h1{
+    color:white;
+  }
+  .main-head p{
+    color:rgb(176, 176, 176);
+    margin:7px;
+   text-align: center;
+   font-size:15px;
+  }
+
+  .main-card{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    background-color:  rgb(23, 22, 22);
+    /* height:100vh; */
+    width:100vw;
+    
+  }
+  .main-box{
+    height:415px;
+    /* border:1px solid white; */
+    width:23%;
+    border-radius:14px;
+    margin:25px;
+    box-shadow: 3px 3px 3px orange;
+     background-color:black;
+    
+  }
+  .box-img{
+    height:200px;
+    width:100%;
+    overflow: hidden;
+    background-size: 100% 100%;
+    background-position: center;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+  }
+  .box-content h3{
+    line-height: 35px;
+    font-size:25px;
+    color:rgb(189, 185, 185);
+    font-weight: bolder;
+    padding-left:15px;
+    text-align: left;
+  } 
+  .box-content p{
+    color:rgb(189, 185, 185);
+    text-align: left;
+    padding-left: 10px;
+  }
+  /* .box-content{
+    padding:6px;
+  } */
+  .box-btn{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top:2rem;
+  }
+  .box-btn button{
+    padding:1px 34px;
+    height:30px;
+    border-radius:10px;
+    background-color: orange;
+    font-size:15px;
+    border:none;
+  }
+  .box-btn button:hover{
+    color:white;
+  }
+  
+  .contact{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aquamarine; */
+    background-image:url("/contactreal.avif");
+    background-position: center;
+    background-size:100% 100%;
+    width:100vw;
+    height:100vh;
+    
+    
+  }
+  .contact-material{
+    /* border:2px solid black; */
+    display:flex;
+    flex-direction: column;
+    height:300px;
+    width:35%;
+    margin:20px;
+    border-radius:10px;
+    box-shadow: 5px 5px 5px black;
+
+  }
+  label{
+    font-size: 18px;
+    padding:7px;
+  }
+  input{
+    width:80%;
+    height:30px;
+    font-size:14px;
+    padding-left:1rem;
+    margin-left:15px;
+    border-radius: 10px;
+    border:none;
+  }
+textarea{
+    width:80%;
+    font-size:14px;
+    /* padding-left:1rem; */
+    margin-left:15px;
+    border-radius: 10px;
+    border:none;
+    
+}
+.contact-material h1{
+    text-align:center;
+    padding-top:12px;
+color:black;
+    
+}
+.contact-btn{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:17px;
+    
+}
+.contact-btn button{
+    height:30px;
+    width:35%;
+    background-color: rgb(83, 161, 192);
+    color:white;
+    border-radius: 10px;
+    border:none;
+}
+.contact-btn button:hover{
+    background-color: orange;
+    color:white;
+}
+
+
+@media (max-width:600px){
+    .icon{
+        font-size: 16px;
+    }
+    .header-nav li{
+        font-size:12px;
+        padding:0.3rem 0.5rem;
+    }
+    .nav-btn{
+         font-size:12px;
+         padding:0.1rem 0.1rem;
+        
+    }
+    header{
+        height:95vh;
+    width:100vw;
+    background-image: url("/alternative.jpg");
+    overflow: hidden;
+    background-size:100% 100%;
+    background-position: center;
+    }
+    .main-box{
+        flex-direction: column;
+        width:100vw;
+        height:430px;
+        
+    }
+    .main-card{
+        padding-top:40px;
+    }
+
+    .contact-material{
+        flex-direction: column;
+        width:100vw;
+        height:430px;
+        margin-top:12px;
+
+    }
+    .main-head{
+        padding-top:70px;
+        font-size:13px;
+    }
+
+    .header-material{
+        height:400px;
+        width:70%;
+        background-size:cover;
+    }
+    .header-material h2{
+        font-size: 18px;
+    }
+
+
+}
+
+.main-footer{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color:rgb(31, 29, 29);
+    width:100vw;
+    
+}
+.footer-panel{
+     height:200px;
+    width:200px;
+    border-radius:10px;
+    background-color: rgb(58, 56, 56);
+    align-content: center;
+    box-shadow:5px 5px 5px rgb(0, 0, 0);
+    margin: 20px;
+}
+.panel-content i{
+    color:orange;
+    font-size:80px;
+    margin-bottom: 20px;
+    padding-left:50px;
+    padding-top:16px;
+
+}
+
+.panel-content p{
+    color:white;
+    text-align: center;
+    line-height: 1.3;
+
+}
+
+.panel-content h4{
+    font-size:17px;
+    color:white;
+    text-align: center;
+}

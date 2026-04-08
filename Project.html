@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innovative Solutions</title>
+</head>
+<style>
+    :root{
+        --color:black;
+    }
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    nav{
+        color:white;
+        background-color:var(--color);
+        display:flex;
+        justify-content: space-evenly;
+        align-items:center;
+        height:40px;
+
+    }
+    li{
+    list-style:none;
+    padding:23px;
+    display:inline;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+    }
+    .icon{
+        margin-right:auto;
+        font-size:24px;
+        font-weight:bold;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    li a:hover{
+            text-decoration:underline;
+        }
+
+    .hero-section{
+        background-image: url("gadgets.png");
+        background-size:100% 100%;
+        height:300px;
+        border:none;
+        display:flex;
+        align-items: flex-end;
+        justify-content:
+        center ;
+
+    }
+    .msg{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    
+    }
+    .msg p{
+        color:black;
+        background-color: aliceblue;
+        padding:5px;
+        margin:10px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        
+        
+        }
+        .heading{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            background-color:rgb(117, 189, 217);
+            color:white;
+            font-weight:bold;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+        }
+        .shop-section{
+            display:flex;
+            flex-wrap:wrap;
+            justify-content:space-evenly;
+            background-color: aliceblue;
+        }
+        .box{
+            width:23%;
+            border-radius:10px;
+            background-color: white;
+            padding: 25px 0px 12px;
+            margin-top:15px;
+            height:420px;
+            box-shadow:5px 5px 10px rgb(117, 189, 217);
+        }
+        .box-img{
+            height:300px;
+            background-size:100% 100% ;
+            margin-top:1rem;
+            margin-bottom:1rem;
+        }
+        .box-content{
+            margin-left: 1rem;
+            margin-right:1rem;
+        }
+
+        .box-content p{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+         a{
+            text-decoration:none;
+            color:white;
+            
+        }
+
+        .footer{
+            display:flex;
+            justify-content: center;
+            align-items:center;
+            margin-top:30px;
+            background-color:var(--color);
+            color:white;
+            height:40px;
+            border:none;
+            
+        }
+        @media only screen and (max-width:500px){
+            .shop-section{
+                flex-direction:column;
+            }
+        }
+
+</style>
+<body>
+    <div>
+        <nav>
+            <li class="icon">Innovative Solution</li>
+            <li>
+               <a href="/Project.html" target="_blank">Home</a>
+            </li>
+            <li>
+                <a href="/About.html" target="_blank">About Us</a>
+            </li>
+            <li>
+                <a href="#">Blog</a>
+            </li>
+            <li>
+                <a href="/contact.html" target="_blank">Contact Us</a>
+            </li>
+        </nav>
+    </div>
+    <div class="hero-section">
+        <div class="msg">
+            <p>Hi,This is Innovative Solutions you are  open to buy anything.</p>
+        </div>
+    </div>
+    <!-- shop section-->
+     <div class="heading">
+        <h1>Shop Now</h1>
+     </div>
+
+     <div class="shop-section">
+        <div class="box"><div class="box-content">
+            <h1 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">IPhone</h1>
+            <div class="box-img" style="background-image: url('iphone.webp');"></div>
+            <p>See more</p>
+        </div>
+        </div>
+         <div class="box"><div class="box-content">
+            <h1 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">HP Elitebook</h1>
+            <div class="box-img" style="background-image: url('photo2.webp');"></div>
+            <p>See more</p>
+        </div>
+        </div>
+         <div class="box"><div class="box-content">
+            <h1 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Lenovo</h1>
+            <div class="box-img" style="background-image: url('photo3.webp');"></div>
+            <p>See more</p>
+        </div>
+        </div>
+
+        <div class="box"><div class="box-content">
+            <h1 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Lenovo LAQ</h1>
+            <div class="box-img" style="background-image: url('laq.jpg');"></div>
+            <p>See more</p>
+        </div>
+        </div>
+
+        <div class="box"><div class="box-content">
+            <h1 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Gaming Laptop</h1>
+            <div class="box-img" style="background-image: url('gaming.webp');"></div>
+            <p>See more</p>
+        </div>
+        </div>
+
+        <div class="box"><div class="box-content">
+            <h1 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">MacBook</h1>
+            <div class="box-img" style="background-image: url('macbook.jpg');"></div>
+            <p>See more</p>
+        </div>
+        </div>
+
+        <div class="box"><div class="box-content">
+            <h1 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">ChromeBook</h1>
+            <div class="box-img" style="background-image: url('chromebook.jpg');"></div>
+            <p>See more</p>
+        </div>
+        </div>
+
+        <div class="box"><div class="box-content">
+            <h1 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">ACER</h1>
+            <div class="box-img" style="background-image: url('acer.jpg');"></div>
+            <p>See more</p>
+        </div>
+        </div>
+     </div>
+
+     <div class="footer">
+         <p>&copy; 2026 Innovative Solutions. All Rights Reserved.</p>
+     </div>
+
+    
+</body>
+</html>
